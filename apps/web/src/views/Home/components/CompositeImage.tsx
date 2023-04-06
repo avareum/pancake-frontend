@@ -88,6 +88,7 @@ const CompositeImage: React.FC<React.PropsWithChildren<ComponentProps>> = ({
   attributes,
   maxHeight = '512px',
 }) => {
+  if (attributes.length <= 0) return <></>
   return (
     <Wrapper maxHeight={maxHeight}>
       <DummyImg
