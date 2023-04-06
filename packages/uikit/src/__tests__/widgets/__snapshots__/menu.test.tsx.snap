@@ -78,7 +78,7 @@ exports[`renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   border: 0;
-  border-radius: 16px;
+  border-radius: 3px;
   box-shadow: 0px -1px 0px 0px rgba(14,14,44,0.4) inset;
   cursor: pointer;
   display: -webkit-inline-box;
@@ -138,7 +138,7 @@ exports[`renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   border: 0;
-  border-radius: 16px;
+  border-radius: 3px;
   box-shadow: 0px -1px 0px 0px rgba(14,14,44,0.4) inset;
   cursor: pointer;
   display: -webkit-inline-box;
@@ -361,7 +361,7 @@ exports[`renders correctly 1`] = `
 .c11 {
   background-color: var(--colors-backgroundAlt);
   border: 1px solid var(--colors-cardBorder);
-  border-radius: 16px;
+  border-radius: 3px;
   padding-bottom: 4px;
   padding-top: 4px;
   pointer-events: auto;
@@ -492,7 +492,7 @@ exports[`renders correctly 1`] = `
 
 .c10:hover {
   background: var(--colors-tertiary);
-  border-radius: 16px;
+  border-radius: 3px;
 }
 
 .c15 {
@@ -525,7 +525,7 @@ exports[`renders correctly 1`] = `
 
 .c15:hover {
   background: var(--colors-tertiary);
-  border-radius: 16px;
+  border-radius: 3px;
 }
 
 .c18 {
@@ -558,7 +558,7 @@ exports[`renders correctly 1`] = `
 
 .c18:hover {
   background: var(--colors-tertiary);
-  border-radius: 16px;
+  border-radius: 3px;
 }
 
 .c48 {
@@ -1039,7 +1039,7 @@ exports[`renders correctly 1`] = `
             class="c4"
           >
             <a
-              aria-label="Pancake home page"
+              aria-label="Avareum home page"
               class="c5"
               href="/"
             >
@@ -1917,7 +1917,7 @@ exports[`renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   border: 0;
-  border-radius: 16px;
+  border-radius: 3px;
   box-shadow: 0px -1px 0px 0px rgba(14,14,44,0.4) inset;
   cursor: pointer;
   display: -webkit-inline-box;
@@ -1978,7 +1978,7 @@ exports[`renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   border: 0;
-  border-radius: 16px;
+  border-radius: 3px;
   box-shadow: 0px -1px 0px 0px rgba(14,14,44,0.4) inset;
   cursor: pointer;
   display: -webkit-inline-box;
@@ -2037,7 +2037,7 @@ exports[`renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   border: 0;
-  border-radius: 16px;
+  border-radius: 3px;
   box-shadow: 0px -1px 0px 0px rgba(14,14,44,0.4) inset;
   cursor: pointer;
   display: -webkit-inline-box;
@@ -2510,7 +2510,7 @@ exports[`renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   background-color: var(--colors-textDisabled);
-  border-radius: 24px;
+  border-radius: 3px;
   box-shadow: var(--shadows-inset);
   cursor: pointer;
   display: -webkit-inline-box;
@@ -4014,7 +4014,7 @@ exports[`renders correctly 1`] = `
 }
 
 .c4:hover {
-  border-radius: 16px;
+  border-radius: 3px;
 }
 
 .c4:hover,
@@ -4112,7 +4112,7 @@ html[data-useragent*="TokenPocket_iOS"] .c0 {
 .c14 {
   background-color: var(--colors-backgroundAlt);
   border: 1px solid var(--colors-cardBorder);
-  border-radius: 16px;
+  border-radius: 3px;
   padding-bottom: 4px;
   padding-top: 4px;
   pointer-events: auto;

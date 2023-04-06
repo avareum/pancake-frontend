@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const Wrapper = styled(Flex)<{ background: string }>`
   position: relative;
-  border-radius: 32px;
+  border-radius: 3px;
   background: ${({ background }) => background};
   width: 100%;
   ${({ theme }) => theme.mediaQueries.md} {

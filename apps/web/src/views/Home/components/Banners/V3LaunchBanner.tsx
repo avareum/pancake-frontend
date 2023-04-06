@@ -153,9 +153,9 @@ const Title = styled.div`
 const sharedStyle = css`
   box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.1);
   padding: 4px 8px;
-  border-radius: 16px;
+  border-radius: 3px;
   ${({ theme }) => theme.mediaQueries.sm} {
-    border-radius: 16px;
+    border-radius: 3px;
   }
 `
 

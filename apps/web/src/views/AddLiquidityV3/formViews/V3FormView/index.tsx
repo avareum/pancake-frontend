@@ -58,7 +58,7 @@ import { useV3MintActionHandlers } from './form/hooks/useV3MintActionHandlers'
 import { useV3FormAddLiquidityCallback, useV3FormState } from './form/reducer'
 
 export const BodyWrapper = styled(Card)`
-  border-radius: 24px;
+  border-radius: 3px;
   max-width: 858px;
   width: 100%;
   z-index: 1;
@@ -67,7 +67,7 @@ export const BodyWrapper = styled(Card)`
 const StyledInput = styled(NumericalInput)`
   background-color: ${({ theme }) => theme.colors.input};
   box-shadow: ${({ theme, error }) => theme.shadows[error ? 'warning' : 'inset']};
-  border-radius: 16px;
+  border-radius: 3px;
   padding: 8px 16px;
   font-size: 16px;
   width: 100%;

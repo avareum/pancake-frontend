@@ -15,7 +15,7 @@ const StyledChoiceContainer = styled(Flex)`
 
 const StyledContainer = styled(Flex)<{ isDark: boolean }>`
   position: relative;
-  border-radius: 24px;
+  border-radius: 3px;
   padding: 12px 16px;
   background: ${({ isDark }) =>
     isDark

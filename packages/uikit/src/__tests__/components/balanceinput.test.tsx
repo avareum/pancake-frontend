@@ -46,7 +46,7 @@ it("renders correctly", () => {
 
     .c4 {
       background-color: var(--colors-input);
-      border-radius: 16px;
+      border-radius: 3px;
       box-shadow: var(--shadows-inset);
       color: var(--colors-text);
       display: block;
@@ -88,7 +88,7 @@ it("renders correctly", () => {
     .c0 {
       background-color: var(--colors-input);
       border: 1px solid var(--colors-inputSecondary);
-      border-radius: 16px;
+      border-radius: 3px;
       box-shadow: var(--shadows-inset);
       padding: 8px 16px;
     }
@@ -209,7 +209,7 @@ it("renders correctly with unit prop", () => {
 
     .c4 {
       background-color: var(--colors-input);
-      border-radius: 16px;
+      border-radius: 3px;
       box-shadow: var(--shadows-inset);
       color: var(--colors-text);
       display: block;
@@ -258,7 +258,7 @@ it("renders correctly with unit prop", () => {
     .c0 {
       background-color: var(--colors-input);
       border: 1px solid var(--colors-inputSecondary);
-      border-radius: 16px;
+      border-radius: 3px;
       box-shadow: var(--shadows-inset);
       padding: 8px 16px;
     }
@@ -382,7 +382,7 @@ it("renders correctly with unit prop and switchEditingUnits", () => {
       -ms-flex-align: center;
       align-items: center;
       border: 0;
-      border-radius: 16px;
+      border-radius: 3px;
       box-shadow: 0px -1px 0px 0px rgba(14,14,44,0.4) inset;
       cursor: pointer;
       display: -webkit-inline-box;
@@ -471,7 +471,7 @@ it("renders correctly with unit prop and switchEditingUnits", () => {
 
     .c4 {
       background-color: var(--colors-input);
-      border-radius: 16px;
+      border-radius: 3px;
       box-shadow: var(--shadows-inset);
       color: var(--colors-text);
       display: block;
@@ -524,7 +524,7 @@ it("renders correctly with unit prop and switchEditingUnits", () => {
     .c0 {
       background-color: var(--colors-input);
       border: 1px solid var(--colors-inputSecondary);
-      border-radius: 16px;
+      border-radius: 3px;
       box-shadow: var(--shadows-inset);
       padding: 8px 16px;
     }

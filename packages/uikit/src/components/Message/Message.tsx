@@ -19,7 +19,7 @@ const Icons = {
 const MessageContainer = styled.div<MessageProps>`
   background-color: gray;
   padding: 16px;
-  border-radius: 16px;
+  border-radius: 3px;
   border: solid 1px;
 
   ${space}

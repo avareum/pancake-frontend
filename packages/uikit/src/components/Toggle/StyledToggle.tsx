@@ -75,7 +75,7 @@ const StyledToggle = styled.div<StyleToggleProps>`
   align-items: center;
   background-color: ${({ theme, $checked, $checkedColor, $defaultColor, disabled }) =>
     theme.colors[$checked && !disabled ? $checkedColor : $defaultColor]};
-  border-radius: 24px;
+  border-radius: 32px;
   box-shadow: ${({ theme }) => theme.shadows.inset};
   cursor: pointer;
   display: inline-flex;

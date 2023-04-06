@@ -5,7 +5,7 @@ export const ActionContainer = styled(Flex)`
   flex-direction: column;
   padding: 16px;
   border: 2px solid ${({ theme }) => theme.colors.input};
-  border-radius: 16px;
+  border-radius: 3px;
   margin-bottom: 16px;
 
   ${({ theme }) => theme.mediaQueries.sm} {

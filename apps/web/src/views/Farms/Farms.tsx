@@ -356,9 +356,6 @@ const Farms: React.FC<React.PropsWithChildren> = ({ children }) => {
     <FarmsContext.Provider value={providerValue}>
       <PageHeader>
         <Flex flexDirection="column">
-          <Box m="24px 0">
-            <FarmV3MigrationBanner />
-          </Box>
           <FarmFlexWrapper justifyContent="space-between">
             <Box>
               <FarmH1 as="h1" scale="xxl" color="secondary" mb="24px">

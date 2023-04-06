@@ -5,7 +5,7 @@ import { useTranslation } from "@pancakeswap/localization";
 import { Input } from "../Input";
 
 const StyledInput = styled(Input)`
-  border-radius: 16px;
+  border-radius: 3px;
   margin-left: auto;
 `;
 

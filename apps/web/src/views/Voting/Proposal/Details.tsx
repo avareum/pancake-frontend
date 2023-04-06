@@ -15,7 +15,7 @@ interface DetailsProps {
 const DetailBox = styled(Box)`
   background-color: ${({ theme }) => theme.colors.background};
   border: 1px solid ${({ theme }) => theme.colors.cardBorder};
-  border-radius: 16px;
+  border-radius: 3px;
 `
 
 const Details: React.FC<React.PropsWithChildren<DetailsProps>> = ({ proposal }) => {

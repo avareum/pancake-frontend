@@ -8,7 +8,7 @@ const Container = styled(Flex)`
   width: 250px;
   margin: auto;
   padding: 24px 0px;
-  border-radius: 24px;
+  border-radius: 3px;
   justify-content: center;
   border: ${({ theme }) => `dashed 2px ${theme.colors.cardBorder}`};
 

@@ -49,7 +49,7 @@ it("renders correctly", () => {
       -ms-flex-align: center;
       align-items: center;
       background-color: var(--colors-success);
-      border-radius: 24px;
+      border-radius: 3px;
       box-shadow: var(--shadows-inset);
       cursor: pointer;
       display: -webkit-inline-box;
@@ -127,7 +127,7 @@ it("renders correctly scale sm", () => {
       -ms-flex-align: center;
       align-items: center;
       background-color: var(--colors-success);
-      border-radius: 24px;
+      border-radius: 3px;
       box-shadow: var(--shadows-inset);
       cursor: pointer;
       display: -webkit-inline-box;

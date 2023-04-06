@@ -35,7 +35,7 @@ it("renders correctly", () => {
       -ms-flex-align: center;
       align-items: center;
       border: 0;
-      border-radius: 16px;
+      border-radius: 3px;
       box-shadow: 0px -1px 0px 0px rgba(14,14,44,0.4) inset;
       cursor: pointer;
       display: -webkit-inline-box;
@@ -151,7 +151,7 @@ it("renders correctly", () => {
       background: var(--colors-backgroundAlt);
       box-shadow: 0px 20px 36px -8px rgba(14,14,44,0.1),0px 1px 1px rgba(0,0,0,0.05);
       border: 1px solid var(--colors-cardBorder);
-      border-radius: 32px 32px 0px 0px;
+      border-radius: 3px 3px 0px 0px;
       width: 100%;
       max-height: calc(var(--vh,1vh) * 100);
       z-index: 100;
@@ -201,7 +201,7 @@ it("renders correctly", () => {
         width: auto;
         position: auto;
         bottom: auto;
-        border-radius: 32px;
+        border-radius: 3px;
         max-height: 100vh;
       }
     }

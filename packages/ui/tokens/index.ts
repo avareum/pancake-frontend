@@ -50,8 +50,8 @@ export const tokens = {
     '20px': '20px',
     '32px': '32px',
     small: '4px',
-    default: '16px',
-    card: '24px',
+    default: '3px',
+    card: '3px',
     circle: '50%',
   },
   fontSizes: {

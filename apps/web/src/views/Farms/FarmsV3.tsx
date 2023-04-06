@@ -8,9 +8,7 @@ import {
 import { useIntersectionObserver } from '@pancakeswap/hooks'
 import { useTranslation } from '@pancakeswap/localization'
 import {
-  ArrowForwardIcon,
   Box,
-  Button,
   Farm as FarmUI,
   Flex,
   FlexLayout,
@@ -20,7 +18,6 @@ import {
   Loading,
   Message,
   MessageText,
-  NextLinkFromReactRouter,
   OptionProps,
   PageHeader,
   SearchInput,
@@ -43,7 +40,6 @@ import { ViewMode } from 'state/user/actions'
 import { useUserFarmStakedOnly, useUserFarmsViewMode } from 'state/user/hooks'
 import styled from 'styled-components'
 import { getFarmApr } from 'utils/apr'
-import FarmV3MigrationBanner from 'views/Home/components/Banners/FarmV3MigrationBanner'
 import { useAccount } from 'wagmi'
 import Table from './components/FarmTable/FarmTable'
 import { FarmsV3Context } from './context'
@@ -400,9 +396,6 @@ const Farms: React.FC<React.PropsWithChildren> = ({ children }) => {
     <FarmsV3Context.Provider value={providerValue}>
       <PageHeader>
         <Flex flexDirection="column">
-          <Box m="24px 0">
-            <FarmV3MigrationBanner />
-          </Box>
           <FarmFlexWrapper justifyContent="space-between">
             <Box style={{ flex: '1 1 100%' }}>
               <FarmH1 as="h1" scale="xxl" color="secondary" mb="24px">
@@ -411,14 +404,6 @@ const Farms: React.FC<React.PropsWithChildren> = ({ children }) => {
               <FarmH2 scale="lg" color="text">
                 {t('Stake LP tokens to earn.')}
               </FarmH2>
-              <NextLinkFromReactRouter to="/farms/auction" prefetch={false}>
-                <Button p="0" variant="text">
-                  <Text color="primary" bold fontSize="16px" mr="4px">
-                    {t('Community Auctions')}
-                  </Text>
-                  <ArrowForwardIcon color="primary" />
-                </Button>
-              </NextLinkFromReactRouter>
             </Box>
             {/* After boosted enable */}
             {/* {chainId === ChainId.BSC && (

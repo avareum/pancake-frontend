@@ -67,7 +67,7 @@ export const DropdownMenuDivider = styled.hr`
 export const StyledDropdownMenu = styled.div<{ $isOpen: boolean; $isBottomNav: boolean }>`
   background-color: ${({ theme }) => theme.card.background};
   border: 1px solid ${({ theme }) => theme.colors.cardBorder};
-  border-radius: 16px;
+  border-radius: 3px;
   padding-bottom: 4px;
   padding-top: 4px;
   pointer-events: auto;

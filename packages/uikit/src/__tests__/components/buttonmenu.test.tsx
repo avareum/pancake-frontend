@@ -21,7 +21,7 @@ it("renders correctly", () => {
       -ms-flex-align: center;
       align-items: center;
       border: 0;
-      border-radius: 16px;
+      border-radius: 3px;
       box-shadow: 0px -1px 0px 0px rgba(14,14,44,0.4) inset;
       cursor: pointer;
       display: -webkit-inline-box;
@@ -74,7 +74,7 @@ it("renders correctly", () => {
 
     .c0 {
       background-color: var(--colors-tertiary);
-      border-radius: 16px;
+      border-radius: 3px;
       display: -webkit-inline-box;
       display: -webkit-inline-flex;
       display: -ms-inline-flexbox;

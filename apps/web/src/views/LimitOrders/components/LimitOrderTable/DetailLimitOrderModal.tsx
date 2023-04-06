@@ -26,7 +26,7 @@ import CellFormat from './CellFormat'
 import LimitOrderDisclaimer from '../LimitOrderDisclaimer'
 
 const InfoCardWrapper = styled.div`
-  border-radius: 16px;
+  border-radius: 3px;
   padding: 16px;
   margin-top: 24px;
   border: 1px solid ${({ theme }) => theme.colors.cardBorder};

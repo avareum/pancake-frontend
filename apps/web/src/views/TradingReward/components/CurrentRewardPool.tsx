@@ -8,7 +8,7 @@ const Container = styled(Flex)`
   padding: 40px 16px;
   margin: 80px auto auto auto;
   flex-direction: column;
-  border-radius: 32px;
+  border-radius: 3px;
   background: linear-gradient(180deg, #7645d9 0%, #5121b1 100%);
   z-index: 1;
 

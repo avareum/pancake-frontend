@@ -28,7 +28,7 @@ import { useAccount } from 'wagmi'
 import { useTranslation } from '@pancakeswap/localization'
 
 export const BodyWrapper = styled(Card)`
-  border-radius: 24px;
+  border-radius: 3px;
   max-width: 858px;
   width: 100%;
   z-index: 1;

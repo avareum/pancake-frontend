@@ -9,7 +9,7 @@ import { ExpandableLabel, Box, Grid, Text, Flex } from "../../components";
 import { Footer, BulletList } from "../../components/RoiCalculatorModal/RoiCalculatorFooter";
 
 const StyledFooter = styled(Footer)`
-  border-radius: 16px;
+  border-radius: 3px;
 `;
 
 interface Props {

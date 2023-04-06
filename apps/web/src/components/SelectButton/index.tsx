@@ -8,7 +8,7 @@ export const StyledCard = styled.button<{ isActive?: boolean }>`
   width: fit-content;
   background: ${({ theme, isActive }) =>
     isActive ? `linear-gradient(180deg, ${theme.colors.primaryBright}, ${theme.colors.secondary})` : 'inherit'};
-  border-radius: 16px;
+  border-radius: 3px;
   color: ${({ theme }) => theme.colors.text};
   overflow: hidden;
   position: relative;
@@ -23,7 +23,7 @@ export const StyledCardInner = styled(LightGreyCard)<{ background?: string; hasC
   height: 100%;
   overflow: ${({ hasCustomBorder }) => (hasCustomBorder ? 'initial' : 'inherit')};
   background: ${({ theme, background }) => background ?? theme.card.background};
-  border-radius: 16px;
+  border-radius: 3px;
 `
 
 export function SelectButton({ children, isActive, ...props }) {

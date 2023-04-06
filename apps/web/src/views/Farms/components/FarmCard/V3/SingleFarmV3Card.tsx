@@ -37,7 +37,7 @@ const ActionContainer = styled(Flex)`
   width: 100%;
   padding: 0 16px;
   border: 2px solid ${({ theme }) => theme.colors.input};
-  border-radius: 16px;
+  border-radius: 3px;
   flex-grow: 1;
   flex-basis: 0;
   margin-bottom: 8px;

@@ -190,9 +190,6 @@ export default function PoolListPage() {
 
   return (
     <Page>
-      <Flex m="24px 0" maxWidth="854px">
-        <FarmV3MigrationBanner />
-      </Flex>
       <AppBody
         style={{
           maxWidth: '854px',
@@ -221,18 +218,6 @@ export default function PoolListPage() {
                   {t('Hide closed positions')}
                 </Text>
               </Flex>
-
-              <ButtonMenu
-                scale="sm"
-                activeIndex={selectedTypeIndex}
-                onItemClick={(index) => setSelectedTypeIndex(index)}
-                variant="subtle"
-              >
-                <ButtonMenuItem>{t('All')}</ButtonMenuItem>
-                <ButtonMenuItem>V3</ButtonMenuItem>
-                <ButtonMenuItem>{t('StableSwap')}</ButtonMenuItem>
-                <ButtonMenuItem>V2</ButtonMenuItem>
-              </ButtonMenu>
             </>
           }
         />

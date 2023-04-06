@@ -32,7 +32,7 @@ export const StyledHeading = styled(Heading)`
 `
 export const Wrapper = styled.div`
   position: relative;
-  border-radius: 32px;
+  border-radius: 3px;
   width: 100%;
   max-height: max-content;
   overflow: visible;

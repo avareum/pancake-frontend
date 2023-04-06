@@ -58,7 +58,7 @@ import { RemoveLiquidityLayout } from '..'
 
 const BorderCard = styled.div`
   border: solid 1px ${({ theme }) => theme.colors.cardBorder};
-  border-radius: 16px;
+  border-radius: 3px;
   padding: 16px;
 `
 
