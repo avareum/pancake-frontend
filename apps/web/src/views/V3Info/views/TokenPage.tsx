@@ -292,7 +292,7 @@ const TokenPage: React.FC<{ address: string }> = ({ address }) => {
                     : formatDollarAmount(tokenData.priceUSD, 2)}
                   <Text small color="secondary">
                     {valueLabel ? (
-                      <MonoSpace>{valueLabel} (UTC)</MonoSpace>
+                      <MonoSpace>{valueLabel}</MonoSpace>
                     ) : (
                       <MonoSpace>{dayjs.utc().format('MMM D, YYYY')}</MonoSpace>
                     )}
@@ -336,11 +336,7 @@ const TokenPage: React.FC<{ address: string }> = ({ address }) => {
             </DarkGreyCard>
             <Heading>Transactions</Heading>
             <DarkGreyCard>
-              {transactions ? (
-                <TransactionTable transactions={transactions} color={backgroundColor} />
-              ) : (
-                <LocalLoader fill={false} />
-              )}
+              {transactions ? <TransactionTable transactions={transactions} /> : <LocalLoader fill={false} />}
             </DarkGreyCard>
           </AutoColumn>
         )

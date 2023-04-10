@@ -123,6 +123,8 @@ export function AprCalculator({
     [pool?.feeProtocol],
   )
 
+  const isInLiquidity = defaultDepositUsd
+
   const { apr } = useRoi({
     tickLower,
     tickUpper,
@@ -135,7 +137,7 @@ export function AprCalculator({
     currencyAUsdPrice,
     currencyBUsdPrice,
     volume24H,
-    protocolFee,
+    protocolFee: isInLiquidity ? undefined : protocolFee,
   })
 
   // NOTE: Assume no liquidity when openning modal
@@ -194,6 +196,7 @@ export function AprCalculator({
                 </>
               }
               size="20px"
+              placement="top"
             />
           ) : null}
         </AprButtonContainer>
