@@ -34,7 +34,6 @@ import { ViewMode } from 'state/user/actions'
 import { useUserFarmStakedOnly, useUserFarmsViewMode } from 'state/user/hooks'
 import styled from 'styled-components'
 import { getFarmApr } from 'utils/apr'
-import FarmV3MigrationBanner from 'views/Home/components/Banners/FarmV3MigrationBanner'
 import { useAccount } from 'wagmi'
 
 import { BCakeBoosterCard } from './components/BCakeBoosterCard'

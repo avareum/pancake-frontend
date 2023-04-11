@@ -5,16 +5,10 @@ import {
   SwapFillIcon,
   EarnFillIcon,
   EarnIcon,
-  TrophyIcon,
-  TrophyFillIcon,
-  NftIcon,
-  NftFillIcon,
   MoreIcon,
   DropdownMenuItems,
 } from '@pancakeswap/uikit'
 import { ContextApi } from '@pancakeswap/localization'
-import { nftsBaseUrl } from 'views/Nft/market/constants'
-import { getPerpetualUrl } from 'utils/getPerpetualUrl'
 import { SUPPORT_ONLY_BSC } from 'config/constants/supportChains'
 
 export type ConfigMenuDropDownItemsType = DropdownMenuItems & { hideSubNav?: boolean }
@@ -74,6 +68,31 @@ const config: (
           label: t('Pools'),
           href: '/pools',
           supportChainIds: SUPPORT_ONLY_BSC,
+        },
+      ].map((item) => addMenuItemSupported(item, chainId)),
+    },
+    {
+      label: t('Admin'),
+      href: '/admin',
+      icon: EarnIcon,
+      fillIcon: EarnFillIcon,
+      image: '/images/decorations/pe2.png',
+      items: [
+        {
+          label: t('Actions'),
+          href: '/actions',
+        },
+        {
+          label: t('Proxy Wallet'),
+          href: '/proxy-wallet',
+        },
+        {
+          label: t('Tokens'),
+          href: '/tokens',
+        },
+        {
+          label: t('Configurations'),
+          href: '/configurations',
         },
       ].map((item) => addMenuItemSupported(item, chainId)),
     },
