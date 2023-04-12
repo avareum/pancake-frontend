@@ -11,6 +11,7 @@ import { useTranslation } from '@pancakeswap/localization'
 import { AdminPageLayout } from 'views/Admin'
 import Page from 'components/Layout/Page'
 import DeployNavTokenButton from 'views/Admin/components/DeployNavTokenButton'
+import MintNavTokenButton from 'views/Admin/components/MintNavTokenButton'
 
 export const ProxyFarmCardContainer = ({ farm }) => {
   const { address: account } = useAccount()
@@ -50,6 +51,11 @@ const FarmsPage = () => {
       </Heading>
       <Heading scale="lg" mt="40px" mb="16px">
         {t('Mint Nav Token')}
+        <Flex>
+          <Box width="auto" mr="4px">
+            <MintNavTokenButton />
+          </Box>
+        </Flex>
       </Heading>
       <Heading scale="lg" mt="40px" mb="16px">
         {t('Add Authority')}
