@@ -34,7 +34,7 @@ export const ProxyFarmCardContainer = ({ farm }) => {
 const FarmsPage = () => {
   const { t } = useTranslation()
 
-  const { address: account } = useAccount()
+  // const { address: account } = useAccount()
 
   // TODO: Validate admin account
 
