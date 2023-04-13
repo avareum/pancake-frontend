@@ -27,7 +27,7 @@ export interface DeployNavTokeModalBodyPropsType {
 }
 
 export interface DeployNavTokeModalValidator {
-  isValidAmount: boolean
+  isValidName: boolean
   isValidSymbol: boolean
 }
 
