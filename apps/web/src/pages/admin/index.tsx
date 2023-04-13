@@ -1,17 +1,10 @@
-import { SUPPORT_FARMS } from 'config/constants/supportChains'
-
-// import { useAccount } from 'wagmi'
 import { Heading } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
 import { AdminPageLayout } from 'views/Admin'
 import Page from 'components/Layout/Page'
 
-const FarmsPage = () => {
+const AdminPage = () => {
   const { t } = useTranslation()
-
-  // const { address: account } = useAccount()
-
-  // TODO: Validate admin account
 
   return (
     <Page>
@@ -31,8 +24,6 @@ const FarmsPage = () => {
   )
 }
 
-FarmsPage.Layout = AdminPageLayout
+AdminPage.Layout = AdminPageLayout
 
-FarmsPage.chains = SUPPORT_FARMS
-
-export default FarmsPage
+export default AdminPage
